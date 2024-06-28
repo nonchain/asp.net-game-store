@@ -1,0 +1,16 @@
+GET http://localhost:5057/games
+
+###
+GET http://localhost:5057/games/7
+
+###
+POST http://localhost:5057/games
+Content-Type: application/json
+
+{
+  "name": "MK-11",
+  "genre": "Family",
+  "price": "25.99",
+  "releaseDate": "2020-11-18"
+}
+ 
